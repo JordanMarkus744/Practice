@@ -4,6 +4,7 @@
 #include "Bowlingclass.hpp"
 
 
+// This program takes input from a txt file of the leaderboard of a youth bowling tournament
 int main(){
 
     PlayerInfo Player[284];
@@ -77,14 +78,13 @@ int main(){
             myfile >> temp;
         }
         Player[player].setPlusMinus(temp);
+        
+        //Player[player].Print();
+        Player[player].Search("Peyton Abel");
 
         player++;
     }
     
-
-    for(int i = 0; i < 284; i++){
-        Player[i].Print();
-    }
 
     myfile.close();
     return 0;
