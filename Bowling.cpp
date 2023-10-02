@@ -79,8 +79,8 @@ int main(){
         }
         Player[player].setPlusMinus(temp);
         
-        //Player[player].Print();
-        Player[player].Search("Peyton Abel");
+        Player[player].Print();
+        //Player[player].Search("Christopher Faro");
 
         player++;
     }
