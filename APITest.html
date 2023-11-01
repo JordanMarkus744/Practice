@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather API Fetcher</title>
+</head>
+<body>
+    <ul>
+
+    </ul>
+</body>
+<script>
+    fetch('https://api.weather.gov')
+        .then(res => {
+            return res.json();
+        })
+        .then(data => {
+            console.log(data);
+        })
+</script>
+</html>

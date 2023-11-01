@@ -103,5 +103,6 @@
     "ctime": "cpp",
     "map": "cpp",
     "iomanip": "cpp"
-  }
+  },
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
